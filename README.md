@@ -34,6 +34,10 @@ The only other issue I encountered was that the script was running very slowly; 
 Once I had those in place, the rest of the script was largely setting up variables and for loops.
 
 # Wishlist of Future Features
+### Check for comments in the textfile
+- Create an if statement to check if the 0 index of a line in the text file is a "#' character. If so, continue to the next line.
+- This would allow users to add comments to the text file by simply starting a line with a "#".
+
 ### Create a CLI-only branch
 - Create a branch where the user can check specified hosts by typing them into the command line rather than
 - This version would use _argv_ from the _sys_ library to put each argument from the command line into the __port_scan__ function.
@@ -44,3 +48,4 @@ Once I had those in place, the rest of the script was largely setting up variabl
 
 # Disclaimer
 This script was built to be ethically used. This script was not created for any illegal activities.
+
